@@ -1,0 +1,42 @@
+.pagenation {
+    margin-top: 20px;
+}
+
+.pager-item {
+    border: 1px solid #e1e2e3;
+    padding: 8px;
+    color: #333;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.pager-item:last-child {
+    margin-right: 0;
+}
+
+.pager-item:hover {
+    border: 1px solid #2e2c84;
+}
+
+.pager-item.number {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.pager-item.disabled {
+    color: #e1e2e3;
+    border: 1px solid #e1e2e3;
+    cursor: default;
+}
+
+.pager-item.active {
+    border: none;
+    cursor: default;
+}
+
+.pager-item:last-child {
+    border: 1px solid #e1e2e3;
+}
